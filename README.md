@@ -1,7 +1,4 @@
 # Proyecto Ingeniería de Software
-1. Diagrama de casos de uso
-   ![Texto alternativo](imagen_2025-10-23_124823558.png)
-2. Requisitos
 
 # Aplicación de Recomendación de Películas
 
@@ -237,3 +234,6 @@ Tecnico : Usuario
 - Para auditoría de gestión de catálogo por **Administrador**, las operaciones se registran en una tabla de **Eventos** (opcional): `Eventos(id_evento, id_admin, tipo, id_pelicula, fecha, detalle)` con relaciones `Usuarios(rol=admin) 1:N Eventos` y `Películas 1:N Eventos`.
 
 ---
+
+1. Diagrama de casos de uso
+   ![Texto alternativo](imagen_2025-10-23_124823558.png)
