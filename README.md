@@ -239,5 +239,6 @@ Tecnico : Usuario
    ![Texto alternativo](imagen_2025-10-23_124823558.png)
 
 2. Diagrama de clases
+
       <img width="691" height="647" alt="Diagramadeclases drawio" src="https://github.com/user-attachments/assets/8b6c0ee6-7367-410f-8ca2-77046d688271" />
 
