@@ -250,3 +250,9 @@ Tecnico : Usuario
 
 <img width="543" height="526" alt="DiagramaActividadIngSoftware" src="https://github.com/user-attachments/assets/446edc4c-b4b8-4f41-9726-785b14ac68ee" />
 
+5. Modelo Entidad-Relacion
+
+<img width="741" height="905" alt="ModeloEntidadRelacion" src="https://github.com/user-attachments/assets/cdd4bc30-9927-4929-9c50-0db883c1681f" />
+
+   
+
