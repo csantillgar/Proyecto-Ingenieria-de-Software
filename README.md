@@ -240,10 +240,13 @@ Tecnico : Usuario
 
 2. Diagrama de clases
 
-      <img width="691" height="647" alt="Diagramadeclases drawio" src="https://github.com/user-attachments/assets/8b6c0ee6-7367-410f-8ca2-77046d688271" />
+<img width="691" height="647" alt="Diagramadeclases drawio" src="https://github.com/user-attachments/assets/8b6c0ee6-7367-410f-8ca2-77046d688271" />
 
 
 3. Diagrama de secuencia
 <img width="1497" height="807" alt="DiagramaSecuenciaIngSoftware" src="https://github.com/user-attachments/assets/c3e8dd31-7127-4a7d-9db9-7014651b6b26" />
 
-   
+4. Diagrama de Actividad
+
+<img width="543" height="526" alt="DiagramaActividadIngSoftware" src="https://github.com/user-attachments/assets/446edc4c-b4b8-4f41-9726-785b14ac68ee" />
+
