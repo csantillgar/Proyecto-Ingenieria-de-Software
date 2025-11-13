@@ -240,7 +240,8 @@ Tecnico : Usuario
 
 2. Diagrama de clases
 
-<img width="931" height="641" alt="diagramaClases1" src="https://github.com/user-attachments/assets/300d1891-14e6-43ea-91a8-52670ff33efb" />
+<img width="931" height="604" alt="diagramadeclases2" src="https://github.com/user-attachments/assets/fecc6744-b3f9-42c8-8f13-e0fd29a92127" />
+
 
 
 
