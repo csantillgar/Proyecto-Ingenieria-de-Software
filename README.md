@@ -240,7 +240,8 @@ Tecnico : Usuario
 
 2. Diagrama de clases
 
-<img width="691" height="647" alt="Diagramadeclases drawio" src="https://github.com/user-attachments/assets/8b6c0ee6-7367-410f-8ca2-77046d688271" />
+<img width="931" height="641" alt="diagramaClases1" src="https://github.com/user-attachments/assets/300d1891-14e6-43ea-91a8-52670ff33efb" />
+
 
 
 3. Diagrama de secuencia
