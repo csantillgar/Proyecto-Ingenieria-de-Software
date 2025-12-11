@@ -58,7 +58,7 @@ Sistema de información inteligente orientado a personalización. Software evolu
 - Sistema de información con componente inteligente (motor de recomendación).  
 - Aplicación híbrida multiplataforma (escritorio + móvil).  
 - Arquitectura cliente-servidor RESTful.  
-- Componentes: datos (MySQL), lógica (Spring Boot), presentación (JavaFX / Flutter).
+- Componentes: datos (Firebase), lógica (Spring Boot), presentación (JavaFX / Flutter).
 
 ### 2.3 Ciclo de vida elegido
 Ciclo ágil iterativo-incremental con Scrum. Sprints de 2–3 semanas, cada uno entregando incrementos funcionales (usuarios, catálogo, recomendaciones, pagos).
