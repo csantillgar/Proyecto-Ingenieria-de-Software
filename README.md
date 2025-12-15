@@ -1,4 +1,4 @@
-# 🎬 Aplicación de Recomendación de Películas  
+# Aplicación de Recomendación de Películas  
 **Proyecto de Ingeniería de Software**  
 Repostiorio:
 https://github.com/csantillgar/Proyecto-Ingenieria-de-Software.git
@@ -19,9 +19,9 @@ La aplicación permite:
 ---
 
 ### 1.2 Justificación del proyecto
-La proliferación de contenido audiovisual ha generado la necesidad de sistemas que orienten la elección del usuario. Plataformas como Netflix, Filmin o Prime Video utilizan motores de recomendación eficaces, pero cerrados a sus propios catálogos.
+Hemos decidido desarrollar una aplicación de recomendación de películas porque se trata de un tipo de sistema muy presente en la vida cotidiana de los usuarios y fácil de entender, lo que permite centrarnos en los conceptos clave del proyecto sin necesidad de un conocimiento previo complejo. El cine es un ámbito de interés general, por lo que resulta sencillo obtener ejemplos, probar la aplicación y evaluar su funcionamiento.
 
-Este proyecto persigue crear una **plataforma independiente**, en la que los usuarios puedan gestionar su propia biblioteca y recibir recomendaciones personalizadas sin depender de un proveedor concreto.
+Además, este proyecto nos permite trabajar con funcionalidades importantes como el inicio de sesión de usuarios, la gestión de valoraciones y la personalización de contenidos, aplicando de forma práctica los conocimientos adquiridos en clase.
 
 ---
 
@@ -33,7 +33,6 @@ Este proyecto persigue crear una **plataforma independiente**, en la que los usu
 - Gestión del catálogo por parte de administradores (alta, modificación y eliminación).
 - Valoraciones y reseñas de usuarios.
 - Algoritmo de recomendación basado en preferencias y valoraciones.
-- Módulo de facturación (suscripciones o servicios premium).
 - Interfaz móvil y de escritorio con sincronización centralizada.
 
 #### Limitaciones
@@ -56,7 +55,7 @@ Este proyecto persigue crear una **plataforma independiente**, en la que los usu
 
 | Término | Definición |
 |------|-----------|
-| **Actor** | Rol que interactúa con el sistema (usuario, técnico, administrador). |
+| **Actor** | Rol que interactúa con el sistema (usuario, administrador). |
 | **Caso de uso** | Funcionalidad observable por un actor que produce un resultado concreto. |
 | **Recomendación** | Sugerencias de películas según hábitos y valoraciones. |
 | **Catálogo** | Base de datos de películas con metadatos. |
@@ -87,7 +86,7 @@ Sistema de información inteligente orientado a la personalización. Se trata de
 
 ### 2.3 Ciclo de vida elegido
 Ciclo de vida ágil iterativo-incremental basado en Scrum, con sprints de 2–3 semanas.  
-Cada sprint entrega incrementos funcionales: usuarios, catálogo, recomendaciones y facturación.
+Cada sprint entrega incrementos funcionales: usuarios, catálogo y recomendaciones.
 
 ---
 
@@ -115,14 +114,6 @@ Cada sprint entrega incrementos funcionales: usuarios, catálogo, recomendacione
 
 ---
 
-### 2.6 Estándares de calidad aplicables
-- ISO/IEC 25010 – Calidad del producto software.
-- ISO/IEC 12207 – Procesos del ciclo de vida.
-- IEEE 829 – Documentación de pruebas.
-- Convenciones Java y Spring Boot (estilo, modularidad, manejo de excepciones).
-
----
-
 ## 3. Ingeniería de requisitos
 
 ### 3.1 Stakeholders
@@ -131,20 +122,12 @@ Cada sprint entrega incrementos funcionales: usuarios, catálogo, recomendacione
 |----|---------|------------|
 | Usuario | Usabilidad y calidad de recomendaciones | Alto |
 | Administrador | Control del catálogo | Alto |
-| Técnico | Mantenimiento y rendimiento | Medio |
 | Desarrolladores | Correcta implementación | Alto |
-| Product Owner | Priorización | Muy alto |
-| Scrum Master | Metodología | Medio |
+
 
 ---
 
-### 3.2 Obtención y análisis
-Entrevistas, observación, análisis comparativo (Netflix, IMDb, FilmAffinity), prototipos y backlog de historias de usuario.  
-Resultado: definición del MVP.
-
----
-
-### 3.3 Requisitos funcionales
+### 3.2 Requisitos funcionales
 
 | Código | Descripción | Prioridad |
 |-----|------------|----------|
@@ -156,12 +139,10 @@ Resultado: definición del MVP.
 | RF-06 | Recomendaciones personalizadas | Must |
 | RF-07 | Gestión del catálogo | Must |
 | RF-08 | Estadísticas | Should |
-| RF-09 | Pagos premium | Could |
-| RF-10 | Reportes técnicos | Should |
 
 ---
 
-### 3.4 Requisitos no funcionales
+### 3.3 Requisitos no funcionales
 
 | Código | Descripción | Tipo |
 |-----|-------------|------|
@@ -174,7 +155,7 @@ Resultado: definición del MVP.
 
 ---
 
-### 3.5 Priorización y planificación
+### 3.4 Priorización y planificación
 **MoSCoW**:
 - Must: RF-01, RF-02, RF-04, RF-05, RF-06, RF-07
 - Should: RF-03, RF-08, RF-10
@@ -184,22 +165,19 @@ Resultado: definición del MVP.
 1. Registro, login y catálogo básico  
 2. Valoraciones y recomendaciones  
 3. Administración y estadísticas  
-4. Pagos y mejoras de usabilidad  
 
 ---
 
 ## 4. Modelado UML y modelo de datos
 
 ### 4.1 Casos de uso
-Actores: Cliente, Administrador, Técnico y sistema de pagos externo.
+Actores: Cliente y Administrador.
 
 Casos principales:
 - Autenticarse
 - Gestionar cuenta
 - Explorar catálogo
 - Gestionar catálogo
-- Gestionar facturación
-- Mantenimiento técnico
 
 ---
 
